@@ -1,0 +1,29 @@
+*{
+text-align:center
+}
+body{
+background-image:url("logo.png");background-repeat:no-repeat;
+}
+.link{
+    background-color:#7fffd4;
+    border:solid;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+.item{
+    background-color:#7fffd4;
+    border:solid;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.item{
+    margin-right:60px;
+    margin-left:60px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:1;
+}
